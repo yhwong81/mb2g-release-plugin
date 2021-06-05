@@ -32,8 +32,8 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/springframeworkguru/mb2g-release-plugin.git</developerConnection>
-        <url>https://github.com/springframeworkguru/mb2g-release-plugin</url>
+        <developerConnection>scm:git:https://github.com/yhwong81/mb2g-release-plugin.git</developerConnection>
+        <url>https://github.com/yhwong81/mb2g-release-plugin.git</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -66,12 +66,12 @@
 
     <distributionManagement>
         <repository>
-            <id>packagecloud.release</id>
-            <url>packagecloud+https://packagecloud.io/springframeworkguru/release</url>
+            <id>yhwong81.releases</id>
+            <url>packagecloud+https://packagecloud.io/yhwong81/release</url>
         </repository>
         <snapshotRepository>
-            <id>packagecloud.snapshot</id>
-            <url>packagecloud+https://packagecloud.io/springframeworkguru/snapshot</url>
+            <id>yhwong81.snapshots</id>
+            <url>packagecloud+https://packagecloud.io/yhwong81/snapshot</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
