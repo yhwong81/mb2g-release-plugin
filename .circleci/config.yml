@@ -36,6 +36,8 @@ jobs:
                       - ~/.m2
                   key: v1-dependencies-{{ checksum "pom.xml" }}
 
+            - run: git config --global user.email "kenz.yihhang@gmail.com"
+            - run: git config --global user.name "origin CircleCI Build"
             # run tests!
             - run: mvn --batch-mode release:prepare release:perform -s .circleci/settings.xml
 
